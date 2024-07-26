@@ -6,6 +6,7 @@ import {
   InvoicesTable,
   LatestInvoiceRaw,
   Revenue,
+  Area
 } from './definitions';
 import { formatCurrency } from './utils';
 
@@ -14,12 +15,12 @@ export async function fetchRevenue() {
     // Artificially delay a response for demo purposes.
     // Don't do this in production :)
 
-    // console.log('Fetching revenue data...');
-    // await new Promise((resolve) => setTimeout(resolve, 3000));
+    console.log('Fetching revenue data...');
+    await new Promise((resolve) => setTimeout(resolve, 3000));
 
     const data = await sql<Revenue>`SELECT * FROM revenue`;
 
-    // console.log('Data fetch completed after 3 seconds.');
+    console.log('Data fetch completed after 3 seconds.');
 
     return data.rows;
   } catch (error) {
@@ -213,5 +214,22 @@ export async function fetchFilteredCustomers(query: string) {
   } catch (err) {
     console.error('Database Error:', err);
     throw new Error('Failed to fetch customer table.');
+  }
+}
+
+export async function fetchAreas() {
+  try {
+    const data = await sql<Area>`
+      SELECT
+        *
+      FROM areaBuilding
+      ORDER BY Area ASC
+    `;
+
+    const areas = data.rows;
+    return areas;
+  } catch (err) {
+    console.error('Database Error:', err);
+    throw new Error('Failed to fetch all area.');
   }
 }

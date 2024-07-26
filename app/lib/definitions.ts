@@ -86,3 +86,10 @@ export type InvoiceForm = {
   amount: number;
   status: 'pending' | 'paid';
 };
+
+export type Area = {
+  area_id : string;
+  area: string;
+  type: string;
+  cluster: string;
+};

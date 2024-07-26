@@ -1,0 +1,3632 @@
+export {
+    area, apartment, flatOwner, flatOwnerResidents, familyOnboard, dailyHelp, parkingSlots, vehicleAddition, staff
+}
+    const area = [
+     {
+      "Area": "Nad Al Sheba",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Villa Jumeirah",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Al Furjan",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Al Yufrah",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Al Goze",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Damac Hills",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Villa Nova",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Mira 3",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Al Waheda",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Wadi Al Safa",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Al Barsha",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Al Khawaneej ",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Town Square",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Al Hebiah ",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Akoya Oxygyn",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Al Yelayiss",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Mirdif",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Madinat",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Jumairah",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Hor Al Anz-Deira",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Al Qudra",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Sports City",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "DSO",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Al Merkadh",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Dubai Health City, Jaddaf",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Sobha Hartland",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Azizi Aliyah Resi",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Nshama",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Al Khail Heights",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Al Quoz",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Marsa Dubai",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Um Suqaim Third",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Hadaeq Sheikh Mohammed Bin Rashid",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Lincoln Park",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Jabel Ali",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Meydan",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Al Khairan",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Me'aisem",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Mohammed Bin Raheed",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Dubai South",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Al Warsan",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Midtown IMPZ",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "JVC",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Arjan",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Nadd Hessa",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Downtown",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Al Jadaf",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "IMPZ",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Business Bay",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "Al Badia",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     },
+     {
+      "Area": "i",
+      "Type": "BLOCK",
+      "Cluster": "NULL"
+     }
+    ]
+    const apartment = [
+     {
+      "Block": "Al Barsha",
+      "Floor": 1,
+      "Flat": "03-80,03-46,S04-40,S02-12,S01-Mulhaq-0,S04-O2 Tower-907,S04-Oxford Boulevard-133,S04-Ghalia-1109,S04-Pantheon Elysee-336,S04-Al Jawhara Tower-1701,S04-O2 Tower-903,S04-Ghalia-2013,S04-JVC Binghatti-502,S04-Al Jawhara Tower-2404,S02- Bella Rose-614,S02- Bella Rose-1713,S04-Signature Living N-G20,S04-Oxford Resi 2-509",
+      "Intercom": "102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120"
+     },
+     {
+      "Block": "Al Badia",
+      "Floor": 2,
+      "Flat": "G-03",
+      "Intercom": 101
+     },
+     {
+      "Block": "Al Furjan",
+      "Floor": 3,
+      "Flat": "Quortaj 2-1045,Jabal Ali 1-574,113",
+      "Intercom": "123,124,125"
+     },
+     {
+      "Block": "Al Jadaf",
+      "Floor": 4,
+      "Flat": "Farhad Azizi Residence-935,Binghatti Avenue-2003",
+      "Intercom": "126,127"
+     },
+     {
+      "Block": "Al Goze",
+      "Floor": 5,
+      "Flat": "02-06,04-204,04-204A",
+      "Intercom": "128,129,130"
+     },
+     {
+      "Block": "Al Waheda",
+      "Floor": 6,
+      "Flat": "Deira-52,Deira-Arabian House-53",
+      "Intercom": "131,132"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Floor": 7,
+      "Flat": "04-Elan-Tilal Ghaf-B020,04-Elan-B099,04-Elan-B461,06-Arabella TH03-335,04-Elan-Tilal Ghaf-A209,04-Elan-B-528,04-Elan-B542,03-DH2-Artesia Tower C-1504,04-Sports City-Bermuda Views-413,04-Sports City-Eagle Heights-412,04-Sports City-Bermuda Views-1207,04-Sports City-Hera Tower-410,04-Sports City-Bermuda Views-802,04-Sports City-Hera Tower-106,04-Sports City-Hera Tower-310,04-Sports City-Bermuda Views-404,04-Sports City-Eagle Heights-408,04-Sports City-Elite 10-1248,03-Artesia Tower C-C-911,03-Artesia Tower D-1503-A",
+      "Intercom": "133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150"
+     },
+     {
+      "Block": "Al Khawaneej ",
+      "Floor": 8,
+      "Flat": "01-25,02-06",
+      "Intercom": "151,152"
+     },
+     {
+      "Block": "Al Yelayiss",
+      "Floor": 9,
+      "Flat": "02- Nor TH-564,02-Town SQR-Safi Apt 1B-516,02-Town SQR Zahra 1A-709",
+      "Intercom": "153,154,155"
+     },
+     {
+      "Block": "Al Qudra",
+      "Floor": 10,
+      "Flat": "Zenia-60",
+      "Intercom": "156"
+     },
+     {
+      "Block": "Al Merkadh",
+      "Floor": 11,
+      "Flat": "Azizi Riviera07-214,Azizi Riviera13-702,Azizi Riviera04-917,Azizi Riviera04-722,Meydan-Azizi Riviera34-235,Azizi Riviera08-215,Azizi Riviera18-414,Azizi Riviera07-412",
+      "Intercom": "157,158,159,160,161,162,163,164"
+     },
+     {
+      "Block": "Al Khail Heights",
+      "Floor": 12,
+      "Flat": "436,G-02,112,G-22,403",
+      "Intercom": "165,166,167,168,169,170"
+     },
+     {
+      "Block": "Al Quoz",
+      "Floor": 13,
+      "Flat": "04- Al Khail Heights-427,04- Al Khail Heights-337",
+      "Intercom": "171,172"
+     },
+     {
+      "Block": "Al Khairan",
+      "Floor": 14,
+      "Flat": "01-Dubai Creek-Harbour Views T1-2308,01-Dubai Creek-Creek Horizon-P208,01-Dubai Creek-Summer 4-402,01-Surf Creek Beach-204",
+      "Intercom": "173,174,175,176"
+     },
+     {
+      "Block": "Al Warsan",
+      "Floor": 15,
+      "Flat": "01-LAWNZ Block 2-126",
+      "Intercom": "177"
+     },
+     {
+      "Block": "Al Yufrah",
+      "Floor": 16,
+      "Flat": "02-DH2-Victoria-365,02-DH2-387,02-DH2-Aster-227,02-DH2-Victoria Cluster-48,03-DH2-Basifica-364,02-DH2-Amazona-201,03-DH2-Albizia-225,02-DH2-Avencia-396,03-DH2-Albizia-190",
+      "Intercom": "178,179,180,181,182,183,184,185,186"
+     },
+     {
+      "Block": "Akoya Oxygyn",
+      "Floor": 17,
+      "Flat": "Coursetia-131",
+      "Intercom": "187"
+     },
+     {
+      "Block": "Arjan",
+      "Floor": 18,
+      "Flat": "Samana Greens-329,Samana Greens-106",
+      "Intercom": "188,189"
+     },
+     {
+      "Block": "Azizi Aliyah Resi",
+      "Floor": 19,
+      "Flat": "Al Jadaf-611",
+      "Intercom": "190"
+     },
+     {
+      "Block": "Business Bay",
+      "Floor": 20,
+      "Flat": "Merano Tower-1607,Merano Tower-818",
+      "Intercom": "191,192"
+     },
+     {
+      "Block": "Damac Hills",
+      "Floor": 21,
+      "Flat": "02-Victoria-163,02-ODORA-08,02-ODORA-09,02-Aster-331,02-Primrose-25,02-Akoya Oxygyn-67,02-Primrose Cluster-C083B,02-Amargo-05,02-Century Cluster-398,02-Collective 2.0 Tower B-612,02-De Park Ridge Tower C-502,02-Artesia Tower C-306,02-Park point-604",
+      "Intercom": "193,194,195,196,197,198,199,200,201,202"
+     },
+     {
+      "Block": "DSO",
+      "Floor": 22,
+      "Flat": "Al Falak Resi-705,Palace Tower 2-1022,Silicon Gate 4-529,Nadd Hessa-Binghatti Point-503",
+      "Intercom": "205,204,206"
+     },
+     {
+      "Block": "Downtown",
+      "Floor": 23,
+      "Flat": "Zaabeel 02-101",
+      "Intercom": "207"
+     },
+     {
+      "Block": "Dubai Health City, Jaddaf",
+      "Floor": 24,
+      "Flat": "Azizi Aliyah Resi-232",
+      "Intercom": "208"
+     },
+     {
+      "Block": "Dubai South",
+      "Floor": 25,
+      "Flat": "MAG 565-310,MAG 565-510",
+      "Intercom": "209,210"
+     },
+     {
+      "Block": "Hadaeq Sheikh Mohammed Bin Rashid",
+      "Floor": 26,
+      "Flat": "Collective Tower 1-309",
+      "Intercom": "211"
+     },
+     {
+      "Block": "Hor Al Anz-Deira",
+      "Floor": 27,
+      "Flat": "Deira Villa-77,Deira Villa-55",
+      "Intercom": "212,213"
+     },
+     {
+      "Block": "IMPZ",
+      "Floor": 28,
+      "Flat": "Qasr Sabah 2-517",
+      "Intercom": "214"
+     },
+     {
+      "Block": "Jumairah",
+      "Floor": 29,
+      "Flat": "03-175,01- La Coat01- 205",
+      "Intercom": "215,216"
+     },
+     {
+      "Block": "Jabel Ali",
+      "Floor": 30,
+      "Flat": "01-The nook 2-710,01-The nook 2-704,01-Azisi Samia Resi- 402,01-Azizi Star- 502A,01-The Nook 2-104,01-The Nook 2-1-823",
+      "Intercom": "217,218,219,220,221,222"
+     },
+     {
+      "Block": "JVC",
+      "Floor": 31,
+      "Flat": "Al Barsha S4-Ghalia-3516,Signature Livings-N-G21,Binghatti Gate-416",
+      "Intercom": "223,224,225"
+     },
+     {
+      "Block": "Lincoln Park",
+      "Floor": 32,
+      "Flat": "B-Arjan-321,B-Arjan-327",
+      "Intercom": "226,227"
+     },
+     {
+      "Block": "Madinat",
+      "Floor": 33,
+      "Flat": "Hind 4-DH2-Century Cluster-327,Al Matar-Parkside 3-288,Al Matar-Parkside 2-303,Al Matar-Dubai South- MAG 560-219,The Pulse Townhouses Cluster 36-214,The Pulse Residence A1-1001",
+      "Intercom": "233,232,231,230,229,228"
+     },
+     {
+      "Block": "Marsa Dubai",
+      "Floor": 34,
+      "Flat": "Manchester-1714",
+      "Intercom": "234"
+     },
+     {
+      "Block": "Meydan",
+      "Floor": 35,
+      "Flat": "Rosebay Living-106",
+      "Intercom": "235"
+     },
+     {
+      "Block": "Me'aisem",
+      "Floor": 36,
+      "Flat": "01-IMPZ-Noor 02-110,01-IMPZ-Lakeside A-2014,01-IMPZ-Afnan 02-507,01-IMPZ-Safi Apt 1B-714,01-IMPZ-2119",
+      "Intercom": "240,239,238,237,236"
+     },
+     {
+      "Block": "Mohammed Bin Raheed",
+      "Floor": 37,
+      "Flat": "Collective 2.0 Tower B-109",
+      "Intercom": "241"
+     },
+     {
+      "Block": "Midtown IMPZ",
+      "Floor": 38,
+      "Flat": "01-IMPZ-Dania 02-1110",
+      "Intercom": "242"
+     },
+     {
+      "Block": "Mirdif",
+      "Floor": 39,
+      "Flat": "Mirdif Villa-21,Mirdif Tulip-B-207",
+      "Intercom": "243,244"
+     },
+     {
+      "Block": "Mira 3",
+      "Floor": 40,
+      "Flat": "Al Yelayiss 1-42",
+      "Intercom": "245"
+     },
+     {
+      "Block": "Nadd Hessa",
+      "Floor": 41,
+      "Flat": "Binghatti Point-106,Arabian Gate-837,Silicon Gate 1-A- 2303B,Arabian Gate-937",
+      "Intercom": "249,248,247,246"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Floor": 42,
+      "Flat": "03-214,03-684,03-1471,03-183,03-915,03-240,03-1049,03-699,03-272,03-841,04-Plot 6173200,03-211,03-472,03-662,03-1160,03-1539,03-824,03-1459,03-222,03-1437,03-454,03-1538,03-790,03-215,03-809,03-62,03-220,03-1130,03-1259,03-322,03-826,03-788,03-91",
+      "Intercom": "247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280"
+     },
+     {
+      "Block": "Nshama",
+      "Floor": 43,
+      "Flat": "Parkside-219",
+      "Intercom": "281"
+     },
+     {
+      "Block": "Town Square",
+      "Floor": 44,
+      "Flat": "Noor Town House-V28,Hayat Boulevard A-512",
+      "Intercom": "282,283"
+     },
+     {
+      "Block": "Sobha Hartland",
+      "Floor": 45,
+      "Flat": "Creek Vistas-A-2906,Creek Vistas-RA-2407",
+      "Intercom": "284,285"
+     },
+     {
+      "Block": "Sports City",
+      "Floor": 46,
+      "Flat": "Venetian-118,Royale Residence 1-G-03,Royale Residence 1-G-05",
+      "Intercom": "288,287,286"
+     },
+     {
+      "Block": "Villa Jumeirah",
+      "Floor": 47,
+      "Flat": "02-17",
+      "Intercom": "287"
+     },
+     {
+      "Block": "Villa Nova",
+      "Floor": 48,
+      "Flat": "LA QUINTA-P13-129-63",
+      "Intercom": "288"
+     },
+     {
+      "Block": "Um Suqaim Third",
+      "Floor": 49,
+      "Flat": "03-Madinat Jumeirah Living Rahaal 1-513,03-Madinat Jumeirah Living Rahaal 1-109",
+      "Intercom": "289,290"
+     },
+     {
+      "Block": "Wadi Al Safa",
+      "Floor": 50,
+      "Flat": "05-Arabian Ranches 3-269,07-R2 Camelia V-214,Villanova Amarnth B-42,Arabian Ranchges 3-JOY-614,05-Villanova-Amarantha 3-68,05-Villanova-Amarantha 3-60,05-Arabian Ranches Joy-660,05-La Rosa 3-P9-3-583,07  Rukhan 3-E35,05-Blue Wave-1031",
+      "Intercom": "291,292,293,294,295,296,297,298,299"
+     },
+     {
+      "Block": "i",
+      "Floor": 51,
+      "Flat": "Royal 01, Royal 02",
+      "Intercom": "300,301"
+     },
+     {
+      "Block": "Downtown",
+      "Floor": 23,
+      "Flat": "Zaabeel 02-101",
+      "Intercom": "207"
+     },
+     {
+      "Block": "DSO",
+      "Floor": 22,
+      "Flat": "Al Falak Resi-705,Palace Tower 2-1022,Silicon Gate 4-529,Nadd Hessa-Binghatti Point-503",
+      "Intercom": "205,204,206"
+     },
+     {
+      "Block": "Dubai Health City, Jaddaf",
+      "Floor": 24,
+      "Flat": "Azizi Aliyah Resi-232",
+      "Intercom": "208"
+     },
+     {
+      "Block": "Dubai South",
+      "Floor": 25,
+      "Flat": "MAG 565-310,MAG 565-510",
+      "Intercom": "209,210"
+     },
+     {
+      "Block": "Hor Al Anz-Deira",
+      "Floor": 27,
+      "Flat": "Deira Villa-77,Deira Villa-55",
+      "Intercom": "212,213"
+     },
+     {
+      "Block": "Hadaeq Sheikh Mohammed Bin Rashid",
+      "Floor": 100,
+      "Flat": "Deira Villa-77,Deira Villa-56",
+      "Intercom": "212,214"
+     },
+     {
+      "Block": "IMPZ",
+      "Floor": 101,
+      "Flat": "Deira Villa-77,Deira Villa-57",
+      "Intercom": "212,215"
+     },
+     {
+      "Block": "Jabel Ali",
+      "Floor": 102,
+      "Flat": "Deira Villa-77,Deira Villa-58",
+      "Intercom": "212,216"
+     },
+     {
+      "Block": "JVC",
+      "Floor": 103,
+      "Flat": "Deira Villa-77,Deira Villa-59",
+      "Intercom": "212,217"
+     },
+     {
+      "Block": "Jumairah",
+      "Floor": 104,
+      "Flat": "Deira Villa-77,Deira Villa-60",
+      "Intercom": "212,218"
+     },
+     {
+      "Block": "Lincoln Park",
+      "Floor": 105,
+      "Flat": "Deira Villa-77,Deira Villa-61",
+      "Intercom": "212,219"
+     },
+     {
+      "Block": "Madinat",
+      "Floor": 106,
+      "Flat": "Deira Villa-77,Deira Villa-62",
+      "Intercom": "212,220"
+     },
+     {
+      "Block": "Marsa Dubai",
+      "Floor": 107,
+      "Flat": "Deira Villa-77,Deira Villa-63",
+      "Intercom": "212,221"
+     },
+     {
+      "Block": "Me'aisem",
+      "Floor": 108,
+      "Flat": "Deira Villa-77,Deira Villa-64",
+      "Intercom": "212,222"
+     },
+     {
+      "Block": "Mira 3",
+      "Floor": 109,
+      "Flat": "Deira Villa-77,Deira Villa-65",
+      "Intercom": "212,223"
+     },
+     {
+      "Block": "Meydan",
+      "Floor": 110,
+      "Flat": "Deira Villa-77,Deira Villa-66",
+      "Intercom": "212,224"
+     },
+     {
+      "Block": "Midtown IMPZ",
+      "Floor": 111,
+      "Flat": "Deira Villa-77,Deira Villa-67",
+      "Intercom": "212,225"
+     },
+     {
+      "Block": "Mirdif",
+      "Floor": 112,
+      "Flat": "Deira Villa-77,Deira Villa-68",
+      "Intercom": "212,226"
+     },
+     {
+      "Block": "Mohammed Bin Raheed",
+      "Floor": 113,
+      "Flat": "Deira Villa-77,Deira Villa-69",
+      "Intercom": "212,227"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Floor": 114,
+      "Flat": "Deira Villa-77,Deira Villa-70",
+      "Intercom": "212,228"
+     },
+     {
+      "Block": "Nadd Hessa",
+      "Floor": 115,
+      "Flat": "Deira Villa-77,Deira Villa-71",
+      "Intercom": "212,229"
+     },
+     {
+      "Block": "Sobha Hartland",
+      "Floor": 116,
+      "Flat": "Deira Villa-77,Deira Villa-72",
+      "Intercom": "212,230"
+     },
+     {
+      "Block": "Nshama",
+      "Floor": 117,
+      "Flat": "Deira Villa-77,Deira Villa-73",
+      "Intercom": "212,231"
+     },
+     {
+      "Block": "Sports City",
+      "Floor": 118,
+      "Flat": "Deira Villa-77,Deira Villa-74",
+      "Intercom": "212,232"
+     },
+     {
+      "Block": "Town Square",
+      "Floor": 119,
+      "Flat": "Deira Villa-77,Deira Villa-75",
+      "Intercom": "212,233"
+     },
+     {
+      "Block": "Um Suqaim Third",
+      "Floor": 120,
+      "Flat": "Deira Villa-77,Deira Villa-76",
+      "Intercom": "212,234"
+     },
+     {
+      "Block": "Villa Jumeirah",
+      "Floor": 121,
+      "Flat": "Deira Villa-77,Deira Villa-77",
+      "Intercom": "212,235"
+     },
+     {
+      "Block": "Villa Nova",
+      "Floor": 122,
+      "Flat": "Deira Villa-77,Deira Villa-78",
+      "Intercom": "212,236"
+     }
+    ]
+    const flatOwner = [
+     {
+      "BLOCK": "A Block",
+      "Flat": "001",
+      "BHK": "BHK1",
+      "Owner Name": "Akhil Gupta",
+      "Owner Phone": "9900581595",
+      "Owner Email": "akhil@nobroker.in",
+      "Accomodation Type": "SELF",
+      "Tenant Name": "",
+      "Tenant Phone": "",
+      "Resident Type": "",
+      "Sanctioned Load (KW)": "New fields  required for ERP",
+      "Primary Owner Phone": "Only one owner phone number is required.\n\nIn case of only one owner details in coloumn G, then that number can be added. That owner will be made primary.\n\nIn case of multiple owners in coloumn G, Primary Owner Phone is mandatory.",
+      "Primary Tenant Phone": "Only one tenant phone number is required.\n\nIn case of only one tenant details in coloumn P, then that number can be added. That tenant will be made primary.\n\nIn case of multiple tenant in coloumn P, Primary Tenant Phone is mandatory."
+     },
+     {
+      "BLOCK": "A Block",
+      "Flat": "002",
+      "BHK": "BHK2",
+      "Owner Name": "Abhas Pareekh",
+      "Owner Phone": "9582396133",
+      "Owner Email": "abhas.pareekh@nobroker.in",
+      "Accomodation Type": "VACANT",
+      "Tenant Name": "",
+      "Tenant Phone": "",
+      "Resident Type": "",
+      "Sanctioned Load (KW)": "New fields  required for ERP",
+      "Primary Owner Phone": "Only one owner phone number is required.\n\nIn case of only one owner details in coloumn G, then that number can be added. That owner will be made primary.\n\nIn case of multiple owners in coloumn G, Primary Owner Phone is mandatory.",
+      "Primary Tenant Phone": "Only one tenant phone number is required.\n\nIn case of only one tenant details in coloumn P, then that number can be added. That tenant will be made primary.\n\nIn case of multiple tenant in coloumn P, Primary Tenant Phone is mandatory."
+     },
+     {
+      "BLOCK": "A Block",
+      "Flat": "003",
+      "BHK": "BHK2_5",
+      "Owner Name": "Deekshanth",
+      "Owner Phone": "9916104308",
+      "Owner Email": "deekshant.jain@nobroker.in",
+      "Accomodation Type": "LETOUT",
+      "Tenant Name": "Mohit Garg",
+      "Tenant Phone": "8882328180",
+      "Resident Type": "BACHELOR",
+      "Sanctioned Load (KW)": "New fields  required for ERP",
+      "Primary Owner Phone": "Only one owner phone number is required.\n\nIn case of only one owner details in coloumn G, then that number can be added. That owner will be made primary.\n\nIn case of multiple owners in coloumn G, Primary Owner Phone is mandatory.",
+      "Primary Tenant Phone": "Only one tenant phone number is required.\n\nIn case of only one tenant details in coloumn P, then that number can be added. That tenant will be made primary.\n\nIn case of multiple tenant in coloumn P, Primary Tenant Phone is mandatory."
+     },
+     {
+      "BLOCK": "A Block",
+      "Flat": "004",
+      "BHK": "BHK3",
+      "Owner Name": "dsad",
+      "Owner Phone": "6786786788",
+      "Owner Email": "deekshant.jain@nobroker.in",
+      "Accomodation Type": "VACANT",
+      "Tenant Name": "",
+      "Tenant Phone": "",
+      "Resident Type": "",
+      "Sanctioned Load (KW)": "New fields  required for ERP",
+      "Primary Owner Phone": "Only one owner phone number is required.\n\nIn case of only one owner details in coloumn G, then that number can be added. That owner will be made primary.\n\nIn case of multiple owners in coloumn G, Primary Owner Phone is mandatory.",
+      "Primary Tenant Phone": "Only one tenant phone number is required.\n\nIn case of only one tenant details in coloumn P, then that number can be added. That tenant will be made primary.\n\nIn case of multiple tenant in coloumn P, Primary Tenant Phone is mandatory."
+     },
+     {
+      "BLOCK": "A Block",
+      "Flat": "005",
+      "BHK": "BHK3_PH",
+      "Owner Phone": "6786786782",
+      "Owner Email": "deekshant.jain@nobroker.in",
+      "Owner Name": "dsad",
+      "Accomodation Type": "VACANT",
+      "Tenant Name": "",
+      "Tenant Phone": "",
+      "Resident Type": "",
+      "Sanctioned Load (KW)": "New fields  required for ERP",
+      "Primary Owner Phone": "Only one owner phone number is required.\n\nIn case of only one owner details in coloumn G, then that number can be added. That owner will be made primary.\n\nIn case of multiple owners in coloumn G, Primary Owner Phone is mandatory.",
+      "Primary Tenant Phone": "Only one tenant phone number is required.\n\nIn case of only one tenant details in coloumn P, then that number can be added. That tenant will be made primary.\n\nIn case of multiple tenant in coloumn P, Primary Tenant Phone is mandatory."
+     },
+     {
+      "BLOCK": "A Block",
+      "Flat": "006",
+      "BHK": "BHK4",
+      "Owner Phone": "6786186788",
+      "Owner Email": "deekshant.jain@nobroker.in",
+      "Owner Name": "dsad",
+      "Accomodation Type": "VACANT",
+      "Tenant Name": "",
+      "Tenant Phone": "",
+      "Resident Type": "",
+      "Sanctioned Load (KW)": "New fields  required for ERP",
+      "Primary Owner Phone": "Only one owner phone number is required.\n\nIn case of only one owner details in coloumn G, then that number can be added. That owner will be made primary.\n\nIn case of multiple owners in coloumn G, Primary Owner Phone is mandatory.",
+      "Primary Tenant Phone": "Only one tenant phone number is required.\n\nIn case of only one tenant details in coloumn P, then that number can be added. That tenant will be made primary.\n\nIn case of multiple tenant in coloumn P, Primary Tenant Phone is mandatory."
+     },
+     {
+      "BLOCK": "A Block",
+      "Flat": "007",
+      "BHK": "VILLA",
+      "Owner Phone": "5656565656",
+      "Owner Email": "deekshant.jain@nobroker.in",
+      "Owner Name": "dsad",
+      "Accomodation Type": "VACANT",
+      "Tenant Name": "",
+      "Tenant Phone": "",
+      "Resident Type": "",
+      "Sanctioned Load (KW)": "New fields  required for ERP",
+      "Primary Owner Phone": "Only one owner phone number is required.\n\nIn case of only one owner details in coloumn G, then that number can be added. That owner will be made primary.\n\nIn case of multiple owners in coloumn G, Primary Owner Phone is mandatory.",
+      "Primary Tenant Phone": "Only one tenant phone number is required.\n\nIn case of only one tenant details in coloumn P, then that number can be added. That tenant will be made primary.\n\nIn case of multiple tenant in coloumn P, Primary Tenant Phone is mandatory."
+     },
+     {
+      "BLOCK": "A Block",
+      "Flat": "008",
+      "BHK": "NA",
+      "Owner Phone": "8789879877",
+      "Owner Email": "deekshant.jain@nobroker.in",
+      "Owner Name": "dsad",
+      "Accomodation Type": "VACANT",
+      "Tenant Name": "",
+      "Tenant Phone": "",
+      "Resident Type": "",
+      "Sanctioned Load (KW)": "New fields  required for ERP",
+      "Primary Owner Phone": "Only one owner phone number is required.\n\nIn case of only one owner details in coloumn G, then that number can be added. That owner will be made primary.\n\nIn case of multiple owners in coloumn G, Primary Owner Phone is mandatory.",
+      "Primary Tenant Phone": "Only one tenant phone number is required.\n\nIn case of only one tenant details in coloumn P, then that number can be added. That tenant will be made primary.\n\nIn case of multiple tenant in coloumn P, Primary Tenant Phone is mandatory."
+     }
+    ]
+    const flatOwnerResidents = [
+     {
+      "Block": "Al Barsha",
+      "Flat": "03-80",
+      "BHK": "BHK2",
+      "Sq Feet Area": 800,
+      "Owner Name": "Aysha Salem Nasser-Mohamed Almas Harib Alfalahi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Alex Philip Raju Philip Karackal",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Al Barsha",
+      "Flat": "03-46",
+      "BHK": "BHK4",
+      "Sq Feet Area": 1439,
+      "Owner Name": "Mohammed nasser khamis beljaflah",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Mohammad Adil Ifikhar Ahmed",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Al Barsha",
+      "Flat": "S04-40",
+      "BHK": "BHK3",
+      "Sq Feet Area": 1052.28,
+      "Owner Name": "Alia Muhayer Obaid Bin Suroor Alhemeiri",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Nahid Mohammed Nasip Chamamit",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Al Barsha",
+      "Flat": "S02-12",
+      "BHK": "BHK5",
+      "Sq Feet Area": 929.03,
+      "Owner Name": "Nisar",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Seref Cengiz Gedik",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Al Barsha",
+      "Flat": "S01-Mulhaq-0",
+      "BHK": "BHK2",
+      "Sq Feet Area": 800,
+      "Owner Name": "Aysha Salem Nasser-Mohamed Almas Harib Alfalahi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Barsha",
+      "Flat": "S04-O2 Tower-907",
+      "BHK": "Studio",
+      "Sq Feet Area": 348.64,
+      "Owner Name": "Ahmed Khalid Mohammed Abdulla Alabdooli",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Barsha",
+      "Flat": "S04-Oxford Boulevard-133",
+      "BHK": "BHK1",
+      "Sq Feet Area": 897.92,
+      "Owner Name": "Buthaina Matar Mohammad Lahij Alfalasi ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Ahmad Abdulrahim Ahmad Baker- ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Al Barsha",
+      "Flat": "S04-Ghalia-1109",
+      "BHK": "BHK1",
+      "Sq Feet Area": 831.19,
+      "Owner Name": "Mohamed Salem Hamdan Salem Alfalahi  ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Kapil Sahebrao Sahebrao Dalpat Patil Patil  ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Al Barsha",
+      "Flat": "S04-Pantheon Elysee-336",
+      "BHK": "BHK1",
+      "Sq Feet Area": 742,
+      "Owner Name": "Hanan Hassan Abdulla Fardan Alfardan",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Emil Rashidovich Yablokov ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Al Barsha",
+      "Flat": "S04-Al Jawhara Tower-1701",
+      "BHK": "BHK1",
+      "Sq Feet Area": 584.7,
+      "Owner Name": "Mohamed Obaid Ali Obaid Alhefeiti",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Sayed Haris",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Al Barsha",
+      "Flat": "S04-O2 Tower-903",
+      "BHK": "BHK1",
+      "Sq Feet Area": 683.36,
+      "Owner Name": "Mohamed Jumaa Salem Hayez Al Mehairbi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Nicole Catherine Simpson Heath",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Al Barsha",
+      "Flat": "S04-Ghalia-2013",
+      "BHK": "Studio",
+      "Sq Feet Area": 447.56,
+      "Owner Name": "Shaikha Ali Sulaiman Alyammadi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Mehdi Menjli",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Al Barsha",
+      "Flat": "S04-JVC Binghatti-502",
+      "BHK": "BHK1",
+      "Sq Feet Area": 645.38,
+      "Owner Name": "Mohammed Ahmed Abdulrahman Alateek AL Ali",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Abdulmalik Ayomide Abdulazeez",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Al Barsha",
+      "Flat": "S04-Al Jawhara Tower-2404",
+      "BHK": "Studio",
+      "Sq Feet Area": 435.51,
+      "Owner Name": "Layla Matar Sultan Alhafri Alketbi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Mahmoud Ibrahim Mahmoud Ahmed",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Al Barsha",
+      "Flat": "S02- Bella Rose-614",
+      "BHK": "Studio",
+      "Sq Feet Area": 417,
+      "Owner Name": "Aisha Eissa Saadalla Waleed Almeiri ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Sandy Yousesef Samara",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Al Barsha",
+      "Flat": "S02- Bella Rose-1713",
+      "BHK": "Studio",
+      "Sq Feet Area": 477.38,
+      "Owner Name": "Neyaz Razhidyan",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Mohamed Maher Mohamed Kamel Elemam",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Al Barsha",
+      "Flat": "S04-Signature Living N-G20",
+      "BHK": "BHK1",
+      "Sq Feet Area": 1152.61,
+      "Owner Name": "Humaid Abdulla Abbas Abdulla",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Maksim Denisenko",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Al Barsha",
+      "Flat": "S04-Oxford Resi 2-509",
+      "BHK": "BHK1",
+      "Sq Feet Area": 802.99,
+      "Owner Name": "Manea Ahmed Abdulwahhab Mohamed Almannaee",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Mohamad Zaher Masri",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Al Badia",
+      "Flat": "G-03",
+      "BHK": "Studio",
+      "Sq Feet Area": 560.81,
+      "Owner Name": "Maitha Mohamed Obaid Alshamti Alketb ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Railyn Silva Villarente",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Akoya Oxygyn",
+      "Flat": "Coursetia-131",
+      "BHK": "BHK4",
+      "Sq Feet Area": 174.8,
+      "Owner Name": "Asma Khaled Mohammed Mutrif Al Jaberi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Faez Abdalhamed Abdaljabar",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Al Furjan",
+      "Flat": "Quortaj 2-1045",
+      "BHK": "BHK3",
+      "Sq Feet Area": 110250,
+      "Owner Name": "Omar Kazim, Sara Kazim, Hamda Kazim, Hanan Kazim",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Romany Nagib Mansour Ekladyos",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Al Furjan",
+      "Flat": "Jabal Ali 1-574",
+      "BHK": "BHK3",
+      "Sq Feet Area": 150000,
+      "Owner Name": "Abdullah Hassan Abdulla Hassan Alhammadi ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Manoj Kollarath Kollarath Gopalan ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Al Furjan",
+      "Flat": 113,
+      "BHK": "BHK2_5",
+      "Sq Feet Area": 210000,
+      "Owner Name": "Yousef A A H Alkandari ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Kuvesh Ramjathan ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "AL Goze",
+      "Flat": "02-06",
+      "BHK": "VILLA",
+      "Sq Feet Area": 611.82,
+      "Owner Name": "Salem Khamis Rashed Habib Almazrooei",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Remco Herm Hein Coerman ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "AL Goze",
+      "Flat": "04-204",
+      "BHK": "BHK1",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Muhammad Ajmal Farooq Muhammad Munir",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "AL Goze",
+      "Flat": "04-204 A",
+      "BHK": "BHK1",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Muhammad Ajmal Farooq Muhammad Munir",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Flat": "04-Elan-Tilal Ghaf-B020",
+      "BHK": "BHK2",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Flat": "04-Elan-B099",
+      "BHK": "BHK3",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Flat": "04-Elan-B461",
+      "BHK": "BHK4",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Flat": "06-Arabella TH03-335",
+      "BHK": "BHK5",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Flat": "04-Elan-Tilal Ghaf-A209",
+      "BHK": "BHK6",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Flat": "04-Elan-B-528",
+      "BHK": "BHK7",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Flat": "04-Elan-B542",
+      "BHK": "BHK8",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Flat": "03-DH2-Artesia Tower C-1504",
+      "BHK": "BHK9",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Flat": "04-Sports City-Bermuda Views-413",
+      "BHK": "BHK10",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Flat": "04-Sports City-Eagle Heights-412",
+      "BHK": "BHK11",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Flat": "04-Sports City-Bermuda Views-1207",
+      "BHK": "BHK12",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Flat": "04-Sports City-Hera Tower-410",
+      "BHK": "BHK13",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Flat": "04-Sports City-Bermuda Views-802",
+      "BHK": "BHK14",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Flat": "04-Sports City-Hera Tower-106",
+      "BHK": "BHK15",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Flat": "04-Sports City-Hera Tower-310",
+      "BHK": "BHK16",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Flat": "04-Sports City-Bermuda Views-404",
+      "BHK": "BHK17",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Flat": "04-Sports City-Eagle Heights-408",
+      "BHK": "BHK18",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Flat": "04-Sports City-Elite 10-1248",
+      "BHK": "BHK19",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Flat": "03-Artesia Tower C-C-911",
+      "BHK": "BHK20",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Hebiah ",
+      "Flat": "03-Artesia Tower D-1503-A",
+      "BHK": "BHK21",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Jadaf",
+      "Flat": "Farhad Azizi Residence-935",
+      "BHK": "BHK22",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Jadaf",
+      "Flat": "Binghatti Avenue-2003",
+      "BHK": "BHK23",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Khail Heights",
+      "Flat": 436,
+      "BHK": "BHK24",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Khail Heights",
+      "Flat": "G-02",
+      "BHK": "BHK25",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Khail Heights",
+      "Flat": 112,
+      "BHK": "BHK26",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Khail Heights",
+      "Flat": "G-22",
+      "BHK": "BHK27",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Khail Heights",
+      "Flat": 403,
+      "BHK": "BHK28",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Khairan",
+      "Flat": "01-Dubai Creek-Harbour Views T1-2308",
+      "BHK": "BHK29",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Khairan",
+      "Flat": "01-Dubai Creek-Creek Horizon-P208",
+      "BHK": "BHK30",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Khairan",
+      "Flat": "01-Dubai Creek-Summer 4-402",
+      "BHK": "BHK31",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Khairan",
+      "Flat": "01-Surf Creek Beach-204",
+      "BHK": "BHK32",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Khawaneej ",
+      "Flat": "01-25",
+      "BHK": "BHK33",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Khawaneej ",
+      "Flat": "02-06",
+      "BHK": "BHK34",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Merkadh",
+      "Flat": "Azizi Riviera07-214",
+      "BHK": "BHK35",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Merkadh",
+      "Flat": "Azizi Riviera13-702",
+      "BHK": "BHK36",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Merkadh",
+      "Flat": "Azizi Riviera04-917",
+      "BHK": "BHK37",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Merkadh",
+      "Flat": "Azizi Riviera04-722",
+      "BHK": "BHK38",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Merkadh",
+      "Flat": "Meydan-Azizi Riviera34-235",
+      "BHK": "BHK39",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Merkadh",
+      "Flat": "Azizi Riviera08-215",
+      "BHK": "BHK40",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Merkadh",
+      "Flat": "Azizi Riviera18-414",
+      "BHK": "BHK41",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Merkadh",
+      "Flat": "Azizi Riviera07-412",
+      "BHK": "BHK42",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Qudra",
+      "Flat": "Zenia-60",
+      "BHK": "BHK43",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Quoz",
+      "Flat": "04- Al Khail Heights-427",
+      "BHK": "BHK44",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Quoz",
+      "Flat": "04- Al Khail Heights-337",
+      "BHK": "BHK45",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Waheda",
+      "Flat": "Deira-52",
+      "BHK": "BHK46",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Waheda",
+      "Flat": "Deira-Arabian House-53",
+      "BHK": "BHK47",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Warsan",
+      "Flat": "01-LAWNZ Block 2-126",
+      "BHK": "BHK48",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Yufrah",
+      "Flat": "02-DH2-Victoria-365",
+      "BHK": "BHK49",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Yufrah",
+      "Flat": "02-DH2-387",
+      "BHK": "BHK50",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Yufrah",
+      "Flat": "02-DH2-Aster-227",
+      "BHK": "BHK51",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Yufrah",
+      "Flat": "02-DH2-Victoria Cluster-48",
+      "BHK": "BHK52",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Yufrah",
+      "Flat": "03-DH2-Basifica-364",
+      "BHK": "BHK53",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Yufrah",
+      "Flat": "02-DH2-Amazona-201",
+      "BHK": "BHK54",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Yufrah",
+      "Flat": "03-DH2-Albizia-225",
+      "BHK": "BHK55",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Yufrah",
+      "Flat": "02-DH2-Avencia-396",
+      "BHK": "BHK56",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Yufrah",
+      "Flat": "03-DH2-Albizia-190",
+      "BHK": "BHK57",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Yelayiss",
+      "Flat": "02-Town SQR-Safi Apt 1B-516",
+      "BHK": "BHK58",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Yelayiss",
+      "Flat": "02-Town SQR Zahra 1A-709",
+      "BHK": "BHK59",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Al Yelayiss",
+      "Flat": "02- Nor TH-564",
+      "BHK": "BHK60",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Azizi Aliyah Resi",
+      "Flat": "Al Jadaf-611",
+      "BHK": "BHK61",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Arjan",
+      "Flat": "Samana Greens-329",
+      "BHK": "BHK62",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Arjan",
+      "Flat": "Samana Greens-106",
+      "BHK": "BHK63",
+      "Sq Feet Area": 1000,
+      "Owner Name": "Jamal A A M Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Business Bay",
+      "Flat": "Merano Tower-1607",
+      "BHK": "BHK1",
+      "Sq Feet Area": 663,
+      "Owner Name": "Selman Saleh Nur Gunjar",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Adela Todorovic",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Business Bay",
+      "Flat": "Merano Tower-818",
+      "BHK": "BHK1",
+      "Sq Feet Area": 667.58,
+      "Owner Name": "Nasser Salem Saif Salem A Neyadi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Robin Jacobs",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Damac Hills",
+      "Flat": "02-Victoria-163",
+      "BHK": "BHK3",
+      "Sq Feet Area": 1207.7,
+      "Owner Name": "Manea Ahmed Abdulwahhab mohammed Almannaee",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Rabia Elias Abdul Latif  Notice Send 62,100 2-3-24(RERA 10,350)",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Damac Hills",
+      "Flat": "02-ODORA_08",
+      "BHK": "BHK3",
+      "Sq Feet Area": 1931.38,
+      "Owner Name": "Muna Hayai Obaid Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Chantal Woods ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Damac Hills",
+      "Flat": "02-ODORA_09",
+      "BHK": "BHK3",
+      "Sq Feet Area": 179.14,
+      "Owner Name": "Salma Abdulrahman Abdulla Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Cornelius Tobias Crause",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Damac Hills",
+      "Flat": "02-Aster-331",
+      "BHK": "VILLA",
+      "Sq Feet Area": 4578.38,
+      "Owner Name": "Mohamed Ibrahim Hassan  ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Christine Angela Pauley",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Damac Hills",
+      "Flat": "02-Primrose-25",
+      "BHK": "BHK3",
+      "Sq Feet Area": 1881.53,
+      "Owner Name": "Dr. Fatema Ahmed Abdulla AL Mansoor ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Danial Mariusz Kulakowski  ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Damac Hills",
+      "Flat": "02-Akoya Oxygyn-67",
+      "BHK": "BHK3",
+      "Sq Feet Area": "1.881.53",
+      "Owner Name": "Al Guharah Abdualtef A Al Made ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Alaaeddin Hamdi Ahmed Al Hiyari",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Damac Hills",
+      "Flat": "02-Primrose Cluster-C083B",
+      "BHK": "BHK3",
+      "Sq Feet Area": 1882.07,
+      "Owner Name": "Hamad Saif Sultan Mohammed Almazrouei ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Sarah Kammerer",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Damac Hills",
+      "Flat": "02-Amargo-05",
+      "BHK": "BHK3",
+      "Sq Feet Area": 1727,
+      "Owner Name": "Dr. Fatema Ahmed Abdulla AL Mansoor",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Mohamed Ibrahim Abdelmaksoud Nars",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Damac Hills",
+      "Flat": "02-Century Cluster-398",
+      "BHK": "BHK3",
+      "Sq Feet Area": 151.8,
+      "Owner Name": "HUMAID MOHAMMED ABDULLA ALNEYADI ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "ALVIN BADONG LITONJUA",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Damac Hills",
+      "Flat": "02-Collective 2.0 Tower B-612",
+      "BHK": "BHK1",
+      "Sq Feet Area": 490,
+      "Owner Name": "Dr. Moammer Museid Saleh Jamil ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Ayana Bakassarina ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Damac Hills",
+      "Flat": "02-De Park Ridge Tower C-502",
+      "BHK": "BHK1",
+      "Sq Feet Area": 650,
+      "Owner Name": "Saeed Abdulaziz Mohammad Siddiq",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Christopher Georgr Nicolaides ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Damac Hills",
+      "Flat": "02-Artesia Tower C-306",
+      "BHK": "BHK1",
+      "Sq Feet Area": 807.21,
+      "Owner Name": "Saeed Hamdan Mohamed Salem Alhmouedi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Tarek Soliman Madbouli Soliman ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Damac Hills",
+      "Flat": "02-Park point-604",
+      "BHK": "BHK1",
+      "Sq Feet Area": 59.74,
+      "Owner Name": "Saeed Hamed Musabbeh Khamis Alneyadi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "RYAN THOMAS OWENS",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Downtown",
+      "Flat": "Zaabeel 02-101",
+      "BHK": "BHK1",
+      "Sq Feet Area": 736.62,
+      "Owner Name": "Ahmed Abdulla Saeed Hamoud Alsubhi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Said Abakarov",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "DSO",
+      "Flat": "Al Falak Resi-705",
+      "BHK": "BHK1",
+      "Sq Feet Area": 650.36,
+      "Owner Name": "Saeed Ateeq Saeed Dafous Alsuwaidi- informed the owner",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Piyush Hasmukh Katira ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "DSO",
+      "Flat": "Palace Tower 2-1022",
+      "BHK": "Studio ",
+      "Sq Feet Area": 459.08,
+      "Owner Name": "Adnan Ahmed Munarak Omar Almenhali",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Mohamed Saad Mohamed Abdelsalam ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "DSO",
+      "Flat": "Silicon Gate 4-529",
+      "BHK": "Studio",
+      "Sq Feet Area": 347.22,
+      "Owner Name": "Laila M A A Bahhani",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Allan Louie Torio Lompot",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "DSO",
+      "Flat": "Nadd Hessa-Binghatti Point-503",
+      "BHK": "BHK1",
+      "Sq Feet Area": 577.38,
+      "Owner Name": "Majid Salim Hassan Saleh Salim Alhammadi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Vikaas Verma Suresh Kumar Verma",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Dubai Health City, Jaddaf",
+      "Flat": "Azizi Aliyah Resi-232",
+      "BHK": "Studio",
+      "Sq Feet Area": 468.13,
+      "Owner Name": "Aaesha Obaid Abdulkrahman Majlad Alfalahi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Manon Joelle Yvette Cals",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Dubai South",
+      "Flat": "MAG 565-310",
+      "BHK": "BHK2",
+      "Sq Feet Area": 668.22,
+      "Owner Name": "Fatima Ahmed Sultan Alshamsi  ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Anna Pauline Matue Monreal",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Dubai South",
+      "Flat": "MAG 565-510",
+      "BHK": "BHK2",
+      "Sq Feet Area": 668.22,
+      "Owner Name": "Fatima Khalifa Hamdan Alfalahi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Esraa Mohab Mahmoud Ahmed Abouelkawam",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Hor Al Anz-Deira",
+      "Flat": "Deira Villa-77",
+      "BHK": "VILLA",
+      "Sq Feet Area": 2439.64,
+      "Owner Name": "Mohamed Almas Harib Alfalahi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Muhammad Naseem Khan ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Hor Al Anz-Deira",
+      "Flat": "Deira Villa-55",
+      "BHK": "VILLA",
+      "Sq Feet Area": 2439.64,
+      "Owner Name": "Mohamed Almas Harib Alfalahi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Mohammad Dad Sher Aslam",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Hadaeq Sheikh Mohammed Bin Rashid",
+      "Flat": "Collective Tower 1-309",
+      "BHK": "BHK1",
+      "Sq Feet Area": 490,
+      "Owner Name": "Dr. Moammer Museid Saleh Jamil ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Ayana Bakassarina  ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "IMPZ",
+      "Flat": "Qasr Sabah 2-517",
+      "BHK": "Studio",
+      "Sq Feet Area": 647.02,
+      "Owner Name": "Abdullah J A M E Jamal",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "IBN Albahr Restaurant",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Jabel Ali",
+      "Flat": "01-The nook 2-710",
+      "BHK": "BHK1",
+      "Sq Feet Area": 541,
+      "Owner Name": "Esra Juma Abdulla Saleh",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Ahmad Yasin Younis Mohammad Amir",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Jabel Ali",
+      "Flat": "01-The nook 2-704",
+      "BHK": "Studio",
+      "Sq Feet Area": 340,
+      "Owner Name": "Samia Juma Abdulla Saleh",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Alina Shevchuk",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Jabel Ali",
+      "Flat": "01-Azisi Samia Resi- 402",
+      "BHK": "BHK1",
+      "Sq Feet Area": 859,
+      "Owner Name": "Adil Mohammed Al Farsi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Prashanth Narasimhan Narasimhan Laxman",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Jabel Ali",
+      "Flat": "01-Azizi Star- 502A",
+      "BHK": "Studio",
+      "Sq Feet Area": 325.81,
+      "Owner Name": "Hamda Abdulla Salem Mohamed Alobeidli",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Zohra Ait Ahmed Lamara",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Jabel Ali",
+      "Flat": "01-The Nook 2-104",
+      "BHK": "Studio",
+      "Sq Feet Area": 314.51,
+      "Owner Name": "Hessa Taresh Khamis Saif Alameemi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Precor Salvus Beleno Balolong",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Jabel Ali",
+      "Flat": "01-The Nook 2-1-823",
+      "BHK": "BHK1",
+      "Sq Feet Area": 48.98,
+      "Owner Name": "Hessa Taresh Khamis Saif Alameemi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Rowena Fernandez Abalos",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "JVC",
+      "Flat": "Binghatti Gate-416",
+      "BHK": "BHK1",
+      "Sq Feet Area": 650.36,
+      "Owner Name": "Shaikah Ali Salem Kh Sh Al Kendi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Mehrdad Mansour Nourollahi",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "JVC",
+      "Flat": "Al Barsha S4-Ghalia-3516",
+      "BHK": "Studio",
+      "Sq Feet Area": 424.31,
+      "Owner Name": "Eissa Humaid Obaid Saeed Almatrooshi ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Salim Raez Toska ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "JVC",
+      "Flat": "Signature Livings-N-G21",
+      "BHK": "BHK1",
+      "Sq Feet Area": 1025.37,
+      "Owner Name": "Humaid Abdulla Abbas Abdulla",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Maksim Denisenko",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Jumairah",
+      "Flat": "01- La Coat01- 205",
+      "BHK": "BHK1",
+      "Sq Feet Area": 822.9,
+      "Owner Name": "Abdelaziz Humaid Saleh Alhouli Alsuwaidi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Azde Moufakkir ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Jumairah",
+      "Flat": "03-175",
+      "BHK": "BHK3",
+      "Sq Feet Area": 1394,
+      "Owner Name": "Mohamed Khalifa Ahmed Bin Thaleth Alhemeiri",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Caroline Charlotte Goiffon  ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Lincoln Park",
+      "Flat": "B-Arjan-321",
+      "BHK": "BHK1",
+      "Sq Feet Area": 760.36,
+      "Owner Name": "Maitha Ahmed (Umm Mansour) ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Abi Saab Makram",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Lincoln Park",
+      "Flat": "B-Arjan-327",
+      "BHK": "BHK1",
+      "Sq Feet Area": 738.83,
+      "Owner Name": "Sabeka Mohammed Al Nasr",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Maseeha Amod",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Madinat",
+      "Flat": "Hind 4-DH2-Century Cluster-327",
+      "BHK": "BHK3",
+      "Sq Feet Area": 1924.64,
+      "Owner Name": "Abdulla Hamed Musabbeh Alneyadi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Syed Irfan Ahmed Syed Hamid Mukhtar",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Madinat",
+      "Flat": "Al Matar-Parkside 3-288",
+      "BHK": "BHK3",
+      "Sq Feet Area": 1553.52,
+      "Owner Name": "Saeed Hamdan Mohamed Salem Alhmoudi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Karim Adel Atef Sami",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Madinat",
+      "Flat": "Al Matar-Parkside 2-303",
+      "BHK": "BHK3",
+      "Sq Feet Area": 1945.51,
+      "Owner Name": "Talal Mohamed Saeed Alakim Alzaabi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Elvin Alibelli",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Madinat",
+      "Flat": "Al Matar-Dubai South- MAG 560-219",
+      "BHK": "Studio",
+      "Sq Feet Area": 513.87,
+      "Owner Name": "Khadija Al shhehi ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Gedione Canumay Sigua ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Madinat",
+      "Flat": "The Pulse Townhouses Cluster 36-214",
+      "BHK": "BHK2",
+      "Sq Feet Area": 1712.13,
+      "Owner Name": "Mohammad Hassan Ali Ahli",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Omar Khalil Shalan",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Madinat",
+      "Flat": "The Pulse Residence A1-1001",
+      "BHK": "BHK1",
+      "Sq Feet Area": 833.68,
+      "Owner Name": "Mohammad Hassan Ali Ahli ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Savitha Baburaj Babu Rajan ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Marsa Dubai",
+      "Flat": "Manchester-1714",
+      "BHK": "BHK1",
+      "Sq Feet Area": 695.03,
+      "Owner Name": "Abdulaziz Mohsen Ahmad Alyafeai ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Muhammad Tariq Muhammad Ashiq ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Me'aisem",
+      "Flat": "01-IMPZ-Noor 02-110",
+      "BHK": "BHK1",
+      "Sq Feet Area": 656.14,
+      "Owner Name": "Mohamed Mansoor Saeed Alshar Alshehhi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Liyana Burkova",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Me'aisem",
+      "Flat": "01-IMPZ-Lakeside A-2014",
+      "BHK": "Studio",
+      "Sq Feet Area": 497.18,
+      "Owner Name": "Meshari A H F Aloraifi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Nacer Eddine Djebbar",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Me'aisem",
+      "Flat": "01-IMPZ-Afnan 02-507",
+      "BHK": "BHK1",
+      "Sq Feet Area": 1041.2,
+      "Owner Name": "HIND MAJID AHMED ALDARWISHI ALSHAMSI",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Roshni Anikumar Dalani",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Me'aisem",
+      "Flat": "01-IMPZ-Safi Apt 1B-714",
+      "BHK": "BHK1",
+      "Sq Feet Area": 595.78,
+      "Owner Name": "Noura Ibrahim Murad Abdelqadir Almaazmi ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Marwan Mohammed Ali Saeed",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Me'aisem",
+      "Flat": "01-IMPZ-2119",
+      "BHK": "Studio",
+      "Sq Feet Area": 491.51,
+      "Owner Name": "Abdalla Salim",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Abdelkhalek Mohamed Ibrahim Sobh",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Mira 3",
+      "Flat": "Al Yelayiss 1-42",
+      "BHK": "BHK1",
+      "Sq Feet Area": 635.07,
+      "Owner Name": "Manea Ahmed Abdulwahhab Mohammed Almannaee",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Shahram Yousef Ghaedi",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Meydan",
+      "Flat": "Rosebay Living-106",
+      "BHK": "BHK1",
+      "Sq Feet Area": 913.96,
+      "Owner Name": "Hanan Hassan Abdulla Fardan Alfardan",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Bilal Ali Amanat Ali",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Midtown IMPZ",
+      "Flat": "01-IMPZ-Dania 02-1110",
+      "BHK": "BHK1",
+      "Sq Feet Area": 620.26,
+      "Owner Name": "Khadija Saeed Obaid Alqaishi Alshehhi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Shahzar Jamil Ansari Jamil Ansari",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Mirdif",
+      "Flat": "Mirdif Villa-21",
+      "BHK": "BHK3",
+      "Sq Feet Area": 7499.97,
+      "Owner Name": "Sheikha Maytha Ahmed Juma Maktoum Al Maktoum",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "AL Abbadi Jewellery Trading LLC",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Mirdif",
+      "Flat": "Mirdif Tulip-B-207",
+      "BHK": "BHK3",
+      "Sq Feet Area": 468.96,
+      "Owner Name": "Ahlam Habeeb Obaid Awadh ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "Vacant ",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Mohammed Bin Raheed",
+      "Flat": "Collective 2.0 Tower B-109",
+      "BHK": "BHK1",
+      "Sq Feet Area": 495.39,
+      "Owner Name": "Amal Ateeq Jumaa Shafar Alromaithi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Volha Kanashevich",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-214",
+      "BHK": "BHK3",
+      "Sq Feet Area": 413.04,
+      "Owner Name": "Shaikha Asma Ali Khalifa Hamad Alkhalifa   ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Mashaallah Gholam Reza Hatam Abadi  ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-684",
+      "BHK": "BHK3",
+      "Sq Feet Area": 4444.31,
+      "Owner Name": "Fahed Khalifa Alradda Mohammed Aldhehaher ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Fatma Yousaf Ali Abdulrahim Albastaki ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-1471",
+      "BHK": "BHK2_5",
+      "Sq Feet Area": 4444.31,
+      "Owner Name": "Humaid Abdulla Abbas Abdulla ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Shadi Mohd Khair Sadeq Alsheikh Ahmad ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-183",
+      "BHK": "BHK3",
+      "Sq Feet Area": 5044.04,
+      "Owner Name": "Sumeya Rashid Mohamed Jabir Alsalami ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Rafat Hanna Qusta Khoury ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-915",
+      "BHK": "BHK3",
+      "Sq Feet Area": 4390.08,
+      "Owner Name": "Sultan Abdulla Khafan Almajedi Albedwawi ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Dina Khaled Ahmad Foudeh",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-240",
+      "BHK": "BHK3",
+      "Sq Feet Area": "468.15 Sqm.",
+      "Owner Name": "Salem Saif Salem Hamad Alneyadi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Wael Ali Ridha Ali Alhashimi ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-1049",
+      "BHK": "BHK3",
+      "Sq Feet Area": 5054,
+      "Owner Name": "Saeed Ali Rashed AL Bayyed Al Shemaili",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Anupam Birla",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-699",
+      "BHK": "BHK3",
+      "Sq Feet Area": 3814.76,
+      "Owner Name": "Taleb Mohamed Taleb Ali Alsheraifi ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Alwan Ali El Hajj Sleiman",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-272",
+      "BHK": "BHK3",
+      "Sq Feet Area": "407.78 SM.",
+      "Owner Name": "Amal Khalifa Obaid Alfout Alremeithi ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Ismail Ibrahim Soliman Soliman",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-841",
+      "BHK": "BHK3",
+      "Sq Feet Area": 5046,
+      "Owner Name": "Khaled Rabei Ahmed Rabei Alhmoudi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Saud Ally-",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "04-Plot 6173200",
+      "BHK": "BHK3",
+      "Sq Feet Area": 5046,
+      "Owner Name": "Rashed Sultan Obaid Alfajeer Almheiri ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Shahzad Khan ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-211",
+      "BHK": "BHK3",
+      "Sq Feet Area": 413.04,
+      "Owner Name": "SH Suha Ali Khalifa Hamad Alkhalifa",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Yusuf Sencan",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-472",
+      "BHK": "BHK3",
+      "Sq Feet Area": 4389,
+      "Owner Name": "Hussa Mohamed Ali Ahmed Albashr",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Sreekanth Sreenivasan Sreenivasan",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-662",
+      "BHK": "BHK3",
+      "Sq Feet Area": 4445.96,
+      "Owner Name": "Moza Saeed Mohamed Saeed Alqubaisi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Mohamed Saleh Mohamed Bin Ishaq",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-1160",
+      "BHK": "BHK3",
+      "Sq Feet Area": "469.06 Sqm.",
+      "Owner Name": "Oshba Ali Hamad Mohammad Alhajeri",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Adel Al Hammadi",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-1539",
+      "BHK": "BHK3",
+      "Sq Feet Area": 5059.51,
+      "Owner Name": "Aamer Mohamed Khalfan Abdulla Alhameli",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Ehtsham Safdar Mahmood  ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-824",
+      "BHK": "BHK3",
+      "Sq Feet Area": "467.36 Sqm.",
+      "Owner Name": "Rawdha Obaid Ali Marran Al Mansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Swarna Bhargava",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-1459",
+      "BHK": "BHK3",
+      "Sq Feet Area": 5056.78,
+      "Owner Name": "Ayesha Mohammad Suroor Bin  Hadi Alqemzi ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Mohamed Mohamed Hasan Alsabbagh ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-222",
+      "BHK": "BHK3",
+      "Sq Feet Area": 4387,
+      "Owner Name": "Hussa Mohamed Ali Ahmed Albashr",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "American Hospital Dubai LLC ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-1437",
+      "BHK": "BHK3",
+      "Sq Feet Area": 470.09,
+      "Owner Name": "Shaikha Mohammed Ahmad Yousuf Janahi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Mitesh Ashok Rasaikara",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-454",
+      "BHK": "BHK3",
+      "Sq Feet Area": "407.78 Sq.M.",
+      "Owner Name": "Mohamed Hussain Mohamed Jafar Alameeri",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Khalid Abdullah M Alathel",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-1538",
+      "BHK": "BHK3",
+      "Sq Feet Area": 5046.64,
+      "Owner Name": "Mohammad Thani Juma Mohamed Alhameli ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Jawad Ahmed Siddiqui Abdul Qaiyoom Siddiqui",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-790",
+      "BHK": "BHK3",
+      "Sq Feet Area": 408,
+      "Owner Name": "Noura Mohamed Obaid Ali Alzaabi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Ataullah Parkar ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-215",
+      "BHK": "BHK3",
+      "Sq Feet Area": "469.24 sq.m.",
+      "Owner Name": "Mohamed Almas Harib Alfalahi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Khalid Hameed Ahmed Ahmed",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-809",
+      "BHK": "BHK2_5",
+      "Sq Feet Area": "469 Sqm",
+      "Owner Name": "Rashed Ali Mehaimed Ahmed Alhebsi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Musaid Ibrahim Ali Alqadi Alhammadi",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant2@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-62",
+      "BHK": "BHK3",
+      "Sq Feet Area": 5039.66,
+      "Owner Name": "Fatma Mohammed Abdulla",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Faris Layth Saheb AL Obaidi",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant3@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-220",
+      "BHK": "BHK3",
+      "Sq Feet Area": 468.96,
+      "Owner Name": "Hussa Mohamed Ali Ahmed Albashr",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Syed Muhammad Imran Sayed Humahammad Nazim",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant3@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-1130",
+      "BHK": "BHK3",
+      "Sq Feet Area": 5053.32,
+      "Owner Name": "Bakhit Ajlan Bakhit Ahmed Alsubousi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Muhammad Rizwan Malik Mitha Khan Khan",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant3@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-1259",
+      "BHK": "BHK3",
+      "Sq Feet Area": 5040.41,
+      "Owner Name": "Saoud Abdulrahman Mohammad Alshaikh ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Hoda Mohammad Daoud",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tnant4@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-322",
+      "BHK": "BHK2_5",
+      "Sq Feet Area": 461.81,
+      "Owner Name": "Matar Ali Matar Khamis Alromaithi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Maher Adib Al Deeb ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tnant4@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-826",
+      "BHK": "BHK3",
+      "Sq Feet Area": 5043.21,
+      "Owner Name": "Najla Obaid Ali Almansoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Meidhi Amara Abdelli",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tnant4@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-788",
+      "BHK": "BHK3",
+      "Sq Feet Area": "467.80 Sq.M.",
+      "Owner Name": "Yousuf Ahmed Safer Shah Alblooshi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Nagham Saeid",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tnant4@gmail.com"
+     },
+     {
+      "Block": "Nad Al Sheba",
+      "Flat": "03-91",
+      "BHK": "BHK3",
+      "Sq Feet Area": 5042.88,
+      "Owner Name": "Asma Saeed Abdulla Miohammad Bilal",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Pablo Muricio Arguello Cazar",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tnant4@gmail.com"
+     },
+     {
+      "Block": "Nadd Hessa",
+      "Flat": "Binghatti Point-106",
+      "BHK": "BHK1",
+      "Sq Feet Area": 903.09,
+      "Owner Name": "Majid Salim Hassan Saleh Salim Alhammadi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Waled Sulaiman Alzouabi ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tnant4@gmail.com"
+     },
+     {
+      "Block": "Nadd Hessa",
+      "Flat": "Arabian Gate-837",
+      "BHK": "Studio",
+      "Sq Feet Area": 283,
+      "Owner Name": "Ahmed Mohamed Ahmed Hussain AL-Ali",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Disha Ashok Shetty Ashok Manjaya",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tnant4@gmail.com"
+     },
+     {
+      "Block": "Nadd Hessa",
+      "Flat": "Silicon Gate 1-A- 2303B",
+      "BHK": "Studio",
+      "Sq Feet Area": 310.97,
+      "Owner Name": "Samira Almas Harid Harib Alfalahi ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Sagar Ansary Md Sekendar Ansary",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tnant4@gmail.com"
+     },
+     {
+      "Block": "Nadd Hessa",
+      "Flat": "Arabian Gate-937",
+      "BHK": "Studio",
+      "Sq Feet Area": 466.4,
+      "Owner Name": "Mariam Ghanim Eissa Alatteya",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Rakesh Kumar Ashok Kumar",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tnant4@gmail.com"
+     },
+     {
+      "Block": "Sobha Hartland",
+      "Flat": "Creek Vistas-A-2906",
+      "BHK": "BHK1",
+      "Sq Feet Area": 488.47,
+      "Owner Name": "Hessah Nasser Ahmed Musad Bani Ammar",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Thomas Michael Stephen Orchard",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tnant4@gmail.com"
+     },
+     {
+      "Block": "Sobha Hartland",
+      "Flat": "Creek Vistas-RA-2407",
+      "BHK": "BHK2",
+      "Sq Feet Area": 799.97,
+      "Owner Name": "Aysha Mohammed Helal Mohammed Al Kaabi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Teresa Bdidget Mcelroy",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tnant4@gmail.com"
+     },
+     {
+      "Block": "Nshama",
+      "Flat": "Parkside-219",
+      "BHK": "BHK1",
+      "Sq Feet Area": 656.6,
+      "Owner Name": "Khadija Muhair Mohamed Almazrouei ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Rabia Boussat ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tnant4@gmail.com"
+     },
+     {
+      "Block": "Sports City",
+      "Flat": "Venetian-118",
+      "BHK": "Studio",
+      "Sq Feet Area": 613.92,
+      "Owner Name": "Abdelaziz Humaid Saleh Alhouli Alsuwaidi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Sports City",
+      "Flat": "Royale Residence 1-G-03",
+      "BHK": "Studio",
+      "Sq Feet Area": 336.48,
+      "Owner Name": "Yousif Ramadan Ahmed Ramadan Alhosani",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "NULL",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Sports City",
+      "Flat": "Royale Residence 1-G-05",
+      "BHK": "Studio",
+      "Sq Feet Area": 335.28,
+      "Owner Name": "Faisal Abdullah Abbas Hussain",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Hassan Khayal ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant5@gmail.com"
+     },
+     {
+      "Block": "Town Square",
+      "Flat": "Hayat Boulevard A-512",
+      "BHK": "BHK2",
+      "Sq Feet Area": 885.87,
+      "Owner Name": "Noura Mohammed Saeed Butti Alneyadi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Mohammed Tabish Shaikh Shaik Hamid Zaheer ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant5@gmail.com"
+     },
+     {
+      "Block": "Town Square",
+      "Flat": "Noor Town House-V28",
+      "BHK": "BHK3",
+      "Sq Feet Area": 1996.8,
+      "Owner Name": "Afra Ali Hadher Ali Almazrouei",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Johan Jose ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant5@gmail.com"
+     },
+     {
+      "Block": "Um Suqaim Third",
+      "Flat": "03-Madinat Jumeirah Living Rahaal 1-513",
+      "BHK": "BHK1",
+      "Sq Feet Area": 833.02,
+      "Owner Name": "Mohamed Hussain Mohamed Jafar Al Ameeri",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Anton Davidenko ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant5@gmail.com"
+     },
+     {
+      "Block": "Um Suqaim Third",
+      "Flat": "03-Madinat Jumeirah Living Rahaal 1-109",
+      "BHK": "BHK2",
+      "Sq Feet Area": 1354,
+      "Owner Name": "Maryam Ibrahim Ali",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Pavel Vedentapin",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant5@gmail.com"
+     },
+     {
+      "Block": "Villa Jumeirah",
+      "Flat": "02-07",
+      "BHK": "VILLA",
+      "Sq Feet Area": 500,
+      "Owner Name": "Ali ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "VACANT",
+      "Tenant Name": "Vacant",
+      "Tenant Phone": "NULL",
+      "Tenant Email": "NULL"
+     },
+     {
+      "Block": "Villa Nova",
+      "Flat": "LA QUINTA-P13-129-63",
+      "BHK": "BHK2_5",
+      "Sq Feet Area": 449.99,
+      "Owner Name": "SABEIHAH AHMED MOHAMED ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Martin Diego Iglesias Kemeny",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant6@gmail.com"
+     },
+     {
+      "Block": "Wadi Al Safa",
+      "Flat": "05-Arabian Ranches 3-269",
+      "BHK": "BHK3",
+      "Sq Feet Area": 1938,
+      "Owner Name": "Saeed Abdulaziz Mohammad Siddiq ",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Maysam Alireza Shafiei  ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Wadi Al Safa",
+      "Flat": "07-R2 Camelia V-214",
+      "BHK": "BHK3",
+      "Sq Feet Area": 2059.67,
+      "Owner Name": "Hajar Mufleh Ayed Hamed AL ahbabi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Wouter Van Giel",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Wadi Al Safa",
+      "Flat": "Villanova Amarnth B-42",
+      "BHK": "BHK3",
+      "Sq Feet Area": 1732.36,
+      "Owner Name": "Mohamed Abdalla Saeed Sulaiman Aldhuhoori",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Majda Ahmed Y Fallata ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Wadi Al Safa",
+      "Flat": "Arabian Ranchges 3-JOY-614",
+      "BHK": "BHK3",
+      "Sq Feet Area": 1390.29,
+      "Owner Name": "Taghreed Sabri Mohd Inirat",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Oluwasegun Micheal Adebayo",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Wadi Al Safa",
+      "Flat": "05-Villanova-Amarantha 3-68",
+      "BHK": "BHK3",
+      "Sq Feet Area": 1805,
+      "Owner Name": "Saeed Abdulaziz Mohammad Siddiq",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Saiid Sleiman",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Wadi Al Safa",
+      "Flat": "05-Villanova-Amarantha 3-60",
+      "BHK": "BHK2",
+      "Sq Feet Area": 1723.09,
+      "Owner Name": "Farah Obaid Khamis AL Suwaidi",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Bader Rajab ",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Wadi Al Safa",
+      "Flat": "05-Arabian Ranches Joy-660",
+      "BHK": "BHK3",
+      "Sq Feet Area": 1393,
+      "Owner Name": "Omar Obaid Mohammed Obaid Al Darmaki",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Joe El Hage",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Wadi Al Safa",
+      "Flat": "05-La Rosa 3-P9-3-583",
+      "BHK": "BHK3",
+      "Sq Feet Area": 1732.99,
+      "Owner Name": "Mohamed Abdalla Salim Khalfan Almazrouei",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Lakdar Benasroune",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Wadi Al Safa",
+      "Flat": "07  Rukhan 3-E35",
+      "BHK": "BHK1",
+      "Sq Feet Area": 819.37,
+      "Owner Name": "Alia Muhayer Obaid Bin Suroor Alhemeiri",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Ahmed Abdelrazek Mohamed Shabana",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     },
+     {
+      "Block": "Wadi Al Safa",
+      "Flat": "05-Blue Wave-1031",
+      "BHK": "Studio",
+      "Sq Feet Area": 439.28,
+      "Owner Name": "Abdulelah Abdulrahman A AL Dakan",
+      "Owner Phone ": 97144413235,
+      "Owner Email": "info@test.com",
+      "Accommodation Type": "LETOUT",
+      "Tenant Name": "Amer Mohammad- for termination",
+      "Tenant Phone": "9876543210",
+      "Tenant Email": "tenant1@gmail.com"
+     }
+    ]
+    const familyOnboard = [
+     {
+      "BLOCK": "TOWER3",
+      "Flat": "101",
+      "BHK": "BHK1",
+      "Owner Name": "Owner1011,Owner1012",
+      "Owner Phone ": "3010000001,3010000002",
+      "Owner Email": "3011@abc.com,3012@abc.com",
+      "Passcode": "123456,123456",
+      "Family Owner Name": "Family3011,Family3012",
+      "Family Owner Phone": "3010002000,3010002001",
+      "Family Owner Email": "family3011@nbh.com,family3012@nbh.com",
+      "Family Passcode": "123456,123456",
+      "Accomodation Type": "SELF"
+     },
+     {
+      "BLOCK": "TOWER3",
+      "Flat": "102",
+      "BHK": "BHK1",
+      "Owner Name": "Owner1021,Owner1022",
+      "Owner Phone ": "3020000001,3020000002",
+      "Owner Email": "3021@abc.com,3022@abc.com",
+      "Passcode": "123456,123456",
+      "Family Owner Name": "Family3021,Family3022",
+      "Family Owner Phone": "3020002000,3020002001",
+      "Family Owner Email": "family3021@nbh.com,family3022@nbh.com",
+      "Family Passcode": "123456,123456",
+      "Accomodation Type": "LETOUT",
+      "Tenant Name": "Tenant102",
+      "Tenant Phone": "0001020000",
+      "Tenant Email": "102@abc.com",
+      "Tenant Passcode": "111231",
+      "Family Tenant Name": "Family102,Fam1022",
+      "Family Tenant Phone": "102343121,312311",
+      "Family Tenant Email": "fam102@abc.com,fam1022@abc.com",
+      "Resident Type": "BACHELOR",
+      "Meter Id": "New fields  required for ERP"
+     },
+     {
+      "BLOCK": "TOWER3",
+      "Flat": "102",
+      "BHK": "BHK1",
+      "Owner Name": "Owner1031,Owner1032",
+      "Owner Phone ": "3030000001,3030000002",
+      "Owner Email": "3031@abc.com,3032@abc.com",
+      "Passcode": "123456,123456",
+      "Family Owner Name": "Family3031,Family3032",
+      "Family Owner Phone": "3030002000,3030002001",
+      "Family Owner Email": "family3031@nbh.com,family3032@nbh.com",
+      "Family Passcode": "123456,123456",
+      "Accomodation Type": "LETOUT",
+      "Tenant Name": "Tenant1,Tenant2",
+      "Tenant Phone": "0001010000,31231",
+      "Tenant Email": "Te@abc.com,Tt@abc.com",
+      "Tenant Passcode": "112231,112233",
+      "Family Tenant Name": "Family1011",
+      "Family Tenant Phone": "10112132",
+      "Family Tenant Email": "fam101@abc.com",
+      "Resident Type": "FAMILY"
+     },
+     {
+      "BHK": "BHK1",
+      "Sq Feet Area": "Area : Mandatory for ERP as bill calucations may be based on area",
+      "Owner Name": "Owner Names  Comma separated",
+      "PARKING": "Comma separated values",
+      "Owner Phone ": "Comma separated values",
+      "Owner Email": "Comma separated values",
+      "Passcode": "Comma separated values",
+      "Family Owner Name": "Comma separated values",
+      "Family Owner Phone": "Comma separated values",
+      "Family Owner Email": "Comma separated values",
+      "Family Passcode": "Comma separated values",
+      "Tenant Name": "Tenant Name is mandatory in case the accomodation type is letout.",
+      "Resident Type": "Values : \nBACHELOR\nFAMILY",
+      "Primary Owner Phone": "Only one owner phone number is required.\n\nIn case of only one owner details in coloumn G, then that number can be added. That owner will be made primary.\n\nIn case of multiple owners in coloumn G, Primary Owner Phone is mandatory.",
+      "Primary Tenant Phone": "Only one tenant phone number is required.\n\nIn case of only one tenant details in coloumn P, then that number can be added. That tenant will be made primary.\n\nIn case of multiple tenant in coloumn P, Primary Tenant Phone is mandatory."
+     }
+    ]
+    const dailyHelp = {
+      "Name": null,
+      "Phone": null,
+      "Type": null,
+      "Working In": null,
+      "Passcode": null
+}
+    const staff = {
+      "Name": null,
+      "Phone": null,
+      "Type": null,
+      "Passcode": null
+}
+    const parkingSlots = {
+      "Block Name": null,
+      "Apartment Name": null,
+      "Parking Area": null,
+      "Parking Name": null,
+      "Max Two Wheelers": null,
+      "Max Four Wheelers": null
+    }
+    const vehicleAddition = {
+      "Parking Area": null,
+      "Parking Slot Name": null,
+      "Vehicle Type": null,
+      "Vehicle Number": null,
+      "Vehicle Brand": null
+    }
+    

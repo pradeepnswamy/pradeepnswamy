@@ -16,7 +16,13 @@ const config: Config = {
           400: '#2589FE',
           500: '#0070F3',
           600: '#2F6FEB',
+          700: '#00BEFF',
+          800: '#FFEBCD',
         },
+        tale: {
+          100: '#234051',
+        },
+        
       },
     },
     keyframes: {
